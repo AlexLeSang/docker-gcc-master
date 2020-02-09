@@ -6,9 +6,16 @@
 # For whom is this usefull?
 For people who want to get latest gcc compler suite (gcc, g++, gfortran, go) without installing it into your system.
 
-# How to use it?
-Take this `Dockerfile` and build docker image =)
+# Docker image
+[GCC master docker hub](https://hub.docker.com/repository/docker/alexlesang/gcc-master) 
 
 # References and sources
 [GCC docker hub](https://hub.docker.com/_/gcc/) 
+
+## Versioning
+Version of the image comes from the following command:
+```
+docker run --rm -ti -w /usr/src/gcc gcc-trunk gcc --version | head -n1 | awk '{print $3,$4}' | tr ' ' '-'
+```
+
 
