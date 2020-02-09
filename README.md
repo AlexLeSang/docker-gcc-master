@@ -1,3 +1,5 @@
+![Docker Image CI](https://github.com/AlexLeSang/docker-gcc-master/workflows/Docker%20Image%20CI/badge.svg?branch=master)
+
 # What is this?
 `Dockerfile` for latest gcc (from 'master')
 
