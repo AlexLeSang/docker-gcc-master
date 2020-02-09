@@ -4,7 +4,7 @@
 `Dockerfile` for latest gcc (from 'master')
 
 # For whom is this usefull?
-For people who want to get latest gcc compler suite (gcc, g++, gfortran, go) without installing it into your system.
+For people who want to get latest gcc compiler suite (gcc, g++, gfortran, go) without installing them into your system.
 
 # Docker image
 [GCC master docker hub](https://hub.docker.com/repository/docker/alexlesang/gcc-master) 
